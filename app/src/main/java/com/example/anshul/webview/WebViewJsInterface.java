@@ -32,5 +32,4 @@ public class WebViewJsInterface {
         "in the html page.");
     WebViewUtils.callJavaScriptFunction(webView,script);
   }
-
 }

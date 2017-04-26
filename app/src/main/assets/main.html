@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <style>
-.test{
-    height:40px;
-    padding:10px;
+.button-class{
+    padding:15px;
     display:block;
     margin:0 auto;
     margin-top:10px;
     margin-bottom:10px;
-    font-size:16px;
+    font-size:20px;
+    font-weight:bold;
 }
 #bottom-container {
     position: absolute;
     bottom: 0;
-    left:20%;
+    left:10%;
     margin:0 auto;
     margin-bottom:100px;
 }
 
 #text-container{
-    font-size:20px;
+    font-size:24px;
 }
+
 
 </style>
 <body>
@@ -29,10 +30,11 @@
 </p>
 
 <div id="bottom-container">
-    <button type="button" onclick="showToast()" class="test">Click for showing Toast Message
+    <button type="button" onclick="showToast()" class="button-class">Click for showing Toast Message
     </button>
-    <button type="button" class="test" onclick="giveCallbackToClient()">Click for Loading Text in
-        WebView</button>
+    <button type="button" class="button-class" onclick="giveCallbackToClient()">Click for Loading
+        Text inWebView
+    </button>
 </div>
 
 <script>
@@ -44,11 +46,9 @@
 	handler.setWebViewTextCallback();
 	}
 
-
     function setText(text){
 	document.getElementById('text-container').innerHTML=text;
 	}
-
 
 </script>
 
