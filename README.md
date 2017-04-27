@@ -11,6 +11,15 @@ A demo project for showing how to use WebViews in Android.
 * Set WebViewClient to the WebView
 * Debugging of WebView
 
+ <br/>
+
+![](images/one.png) &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ![](images/two.png) &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  ![](images/three.png)
+
+
+
+I wrote a blog about how this. [Here](https://blog.mindorks.com/webview-love-it-or-hate-it-but-you-cant-ignore-it-d471bc95d81e) is the post.
+
+
 =====
 
 Checkout my other projects
